@@ -3,7 +3,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   guide: [
-    'requirements',
+    'about',
     {
       type: 'category',
       label: 'Preparation',
@@ -14,72 +14,36 @@ const sidebars = {
           type: 'category',
           label: 'Installation image',
           items: [
-            {
-              type: 'doc',
-              id: 'preparation/installation-image/download',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/installation-image/verification',
-            }
+            'preparation/installation-image/download',
+            'preparation/installation-image/verification'
           ]
         },
         {
           type: 'category',
           label: 'Installation medium',
           items: [
-            {
-              type: 'doc',
-              id: 'preparation/installation-medium/preparation',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/installation-medium/boot',
-            },
+            'preparation/installation-medium/preparation',
+            'preparation/installation-medium/boot',
           ]
         },
         {
           type: 'category',
           label: 'Live environment',
           items: [
-            {
-              type: 'doc',
-              id: 'preparation/live-environment/keyboard',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/live-environment/firmware',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/live-environment/network',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/live-environment/keyring',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/live-environment/mirrorlist',
-            },
+            'preparation/live-environment/keyboard',
+            'preparation/live-environment/firmware',
+            'preparation/live-environment/network',
+            'preparation/live-environment/keyring',
+            'preparation/live-environment/mirrorlist',
           ]
         },
         {
           type: 'category',
           label: 'Storage',
           items: [
-            {
-              type: 'doc',
-              id: 'preparation/storage/partitioning',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/storage/encryption',
-            },
-            {
-              type: 'doc',
-              id: 'preparation/storage/filesystem',
-            },
+            'preparation/storage/partitioning',
+            'preparation/storage/encryption',
+            'preparation/storage/filesystem',
           ]
         },
       ],
@@ -94,34 +58,20 @@ const sidebars = {
           type: 'category',
           label: 'System',
           items: [
-            {
-              type: 'doc',
-              id: 'installation/system/base',
-            },
-            {
-              type: 'doc',
-              id: 'installation/system/storage',
-            },
-            {
-              type: 'doc',
-              id: 'installation/system/timezone',
-            },
-            {
-              type: 'doc',
-              id: 'installation/system/localization',
-            },
-            {
-              type: 'doc',
-              id: 'installation/system/network',
-            },
-            {
-              type: 'doc',
-              id: 'installation/system/users-and-groups',
-            },
-            {
-              type: 'doc',
-              id: 'installation/system/initialization',
-            },
+            'installation/system/base',
+            'installation/system/storage',
+            'installation/system/timezone',
+            'installation/system/localization',
+            'installation/system/network',
+            'installation/system/users-and-groups',
+            'installation/system/initialization',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Display',
+          items: [
+            'installation/display/driver',
           ]
         },
       ]
