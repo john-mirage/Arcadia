@@ -10,15 +10,15 @@ This page describes how to create a network configuration and configure the syst
 
 ## Setup the network informations
 
-### Set the hostname in `/etc/hostname`
+### Set the hostname
 
-```
+```text title="/etc/hostname"
 myhostname
 ```
 
-### Set the hosts in `/etc/hosts`
+### Set the hosts
 
-```
+```text title="/etc/hosts"
 127.0.0.1    localhost
 ::1          localhost
 127.0.1.1    myhostname.localdomain    myhostname

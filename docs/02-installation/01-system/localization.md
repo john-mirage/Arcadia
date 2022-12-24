@@ -28,9 +28,9 @@ locale-gen
 
 ---
 
-## Set the system locale in `/etc/locale.conf`
+## Set the system locale
 
-``` conf
+``` conf title="/etc/locale.conf"
 LANG=fr_FR.UTF-8
 LC_COLLATE=C
 ```

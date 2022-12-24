@@ -13,11 +13,11 @@ This page describes how to verify if the previously downloaded ISO image is stri
 ## Verify the folder structure
 Before starting, verify that you have the 3 files below in the **same folder**. The commands displayed in this section must be running in this folder.
 
-| Filename                                  | Description           |
-| :---------------------------------------- | :-------------------- |
-| `archlinux-year.day.month-x86_64.iso`     | ISO image             |
-| `archlinux-year.day.month-x86_64.iso.txt` | SHA-1 or MD5 checksum |
-| `archlinux-year.day.month-x86_64.iso.sig` | Signature             |
+| Filename                                  | Description               |
+| :---------------------------------------- | :------------------------ |
+| `archlinux-year.day.month-x86_64.iso`     | ISO image                 |
+| `archlinux-year.day.month-x86_64.iso.txt` | SHA-1 or BLAKE2b checksum |
+| `archlinux-year.day.month-x86_64.iso.sig` | Signature                 |
 
 ---
 
@@ -31,10 +31,10 @@ sha1sum -c archlinux-year.month.day-x86_64.iso.txt
 ```
 
   </TabItem>
-  <TabItem value="md5" label="MD5">
+  <TabItem value="b2" label="BLAKE2b">
 
 ``` bash
-md5sum -c archlinux-year.month.day-x86_64.iso.txt
+b2sum -c archlinux-year.month.day-x86_64.iso.txt
 ```
 
   </TabItem>

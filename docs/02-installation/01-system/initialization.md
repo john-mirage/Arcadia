@@ -14,9 +14,9 @@ The initial ramdisk is in essence a very small environment (early userspace) whi
 
 This makes it possible to have, for example, encrypted root file systems and root file systems on a software RAID array. mkinitcpio allows for easy extension with custom hooks, has autodetection at runtime, and many other features.
 
-### Edit the configuration in `/etc/mkinitcpio.conf`
+### Edit the configuration
 
-``` conf
+``` conf title="/etc/mkinitcpio.conf"
 HOOKS=(base udev autodetect keyboard keymap modconf block encrypt filesystems fsck)
 ```
 
@@ -48,25 +48,25 @@ systemd-boot, previously called gummiboot, is a simple UEFI boot manager which e
 bootctl install
 ```
 
-### Edit the loader configuration in `/boot/loader/loader.conf`
+### Edit the loader configuration
 
-``` conf
+``` conf title="/boot/loader/loader.conf"
 default         arch.conf
 timeout         5
 console-mode    keep
 editor          no
 ```
 
-### Copy the UUIDs of the root filesystem and partition in `/boot/loader/entries/arch.conf`
+### Copy the UUIDs of the root filesystem and partition
 
 ``` bash
 blkid /dev/mapper/cryptroot > /boot/loader/entries/arch.conf
 blkid /dev/nvme0n1p2 >> /boot/loader/entries/arch.conf
 ```
 
-### Edit the entry configuration in `/boot/loader/entries/arch.conf`
+### Edit the entry configuration
 
-``` conf
+``` conf title="/boot/loader/entries/arch.conf"
 title       Arch Linux
 linux       /vmlinuz-linux-lts
 initrd      /intel-ucode.img

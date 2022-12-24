@@ -8,6 +8,7 @@ slug: /
 
 :::caution
 
+This project is currently not finished.
 This project should be used at your own risk, always check the official documentation and the provided   sources when using thise guide.
 
 :::

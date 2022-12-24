@@ -14,11 +14,11 @@ This page describes how to install and configure the Nvidia proprietary driver o
 sudo pacman -S nvidia-lts
 ```
 
-## Enable DRM kernel mode setting by editing `/boot/loader/entries/arch.conf`
+## Enable DRM kernel mode setting
 
 Enabling DRM kernel mode setting allow the Xorg server to run without root privileges. It provide a nice security improvement.
 
-``` conf
+``` conf title="/boot/loader/entries/arch.conf"
 options     cryptdevice=UUID=<UUID>:cryptroot:allow-discards root="UUID=<UUID>" nvidia-drm.modeset=1 quiet rw
 ```
 

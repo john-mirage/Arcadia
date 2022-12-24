@@ -26,7 +26,7 @@ Now that you have a list of mirrors that match your criteria, you can go to one 
 In the next section (verification), The checksum will allow us to verify if the downloaded file is the same as the one provided by the Arch Linux team.
 
 1. Open your browser and go to the [Arch Linux download page](https://www.archlinux.org/download/).
-1. Under the HTTP Direct Downloads section, copy the **SHA-1** or **MD5** checksum in your clipboard.
+1. Under the HTTP Direct Downloads section, copy the **SHA-1** or **BLAKE2b** checksum in your clipboard.
 
 You can now create the checksum file with the following command. 
 
@@ -37,7 +37,7 @@ echo "<CHECKSUM> archlinux-year.month.day-x86_64.iso" \
 
 :::caution
 
-Replace `<CHECKSUM>` with the SHA-1 or MD5 checksum previously copied from the Arch Linux download page.
+Replace `<CHECKSUM>` with the SHA-1 or BLAKE2b checksum previously copied from the Arch Linux download page.
 
 :::
 

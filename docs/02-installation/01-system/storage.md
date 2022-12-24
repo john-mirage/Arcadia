@@ -44,9 +44,9 @@ mkswap /swapfile
 swapon /swapfile
 ```
 
-### Edit the fstab configuration in `/etc/fstab`
+### Edit the fstab configuration
 
-``` bash
+``` bash title="/etc/fstab"
 /swapfile    none    swap    defaults    0 0
 ```
 
