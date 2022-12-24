@@ -4,10 +4,16 @@ title: Download
 slug: /installation-image/download
 ---
 
+<head>
+  <title>Installation image download | Arcadia</title>
+</head>
+
 # Download
+
 This page describes how to download the official ISO image, the checksum and the signature of the Arch Linux latest release.
 
 ## Download the ISO image
+
 Downloading the Arch Linux ISO image can be done from any mirror, but it might be better to select a mirror close to your geographic location. The proximity of a mirror maximizes your chances of downloading the ISO image with the best download speed.
 
 1. Open your browser and go to the [Arch Linux pacman mirrorlist generator](https://www.archlinux.org/mirrorlist/).
@@ -20,9 +26,8 @@ Now that you have a list of mirrors that match your criteria, you can go to one 
 1. Click on one of the **HTTPS** mirror sites of your generated list.
 1. Download the Arch Linux ISO image `archlinux-year.day.month-x86_64.iso`
 
----
-
 ## Download the ISO image checksum
+
 In the next section (verification), The checksum will allow us to verify if the downloaded file is the same as the one provided by the Arch Linux team.
 
 1. Open your browser and go to the [Arch Linux download page](https://www.archlinux.org/download/).
@@ -41,9 +46,8 @@ Replace `<CHECKSUM>` with the SHA-1 or BLAKE2b checksum previously copied from t
 
 :::
 
----
-
 ## Download the ISO image signature
+
 In the next section (verification), The signature will allow us to verify if the downloaded file is signed by the same person as the one provided by the Arch Linux team.
 
 1. Open your browser and go to the [Arch Linux download page](https://www.archlinux.org/download/)

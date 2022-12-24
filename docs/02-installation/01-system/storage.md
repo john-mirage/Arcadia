@@ -4,6 +4,10 @@ title: Storage
 slug: /installation/system/storage
 ---
 
+<head>
+  <title>System storage | Arcadia</title>
+</head>
+
 # Storage
 
 This page describes how to setup the optional swapfile of the system and activate the TRIM timer. The TRIM timer is strongly recommended if you have a compatible NVMe storage device.
@@ -49,8 +53,6 @@ swapon /swapfile
 ``` bash title="/etc/fstab"
 /swapfile    none    swap    defaults    0 0
 ```
-
----
 
 ## Enable periodic TRIM
 

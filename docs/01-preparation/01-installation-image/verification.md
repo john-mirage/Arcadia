@@ -4,6 +4,10 @@ title: Verification
 slug: /installation-image/verification
 ---
 
+<head>
+  <title>Installation image verification | Arcadia</title>
+</head>
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -18,8 +22,6 @@ Before starting, verify that you have the 3 files below in the **same folder**. 
 | `archlinux-year.day.month-x86_64.iso`     | ISO image                 |
 | `archlinux-year.day.month-x86_64.iso.txt` | SHA-1 or BLAKE2b checksum |
 | `archlinux-year.day.month-x86_64.iso.sig` | Signature                 |
-
----
 
 ## Verify the integrity of the Arch Linux ISO image
 
@@ -39,8 +41,6 @@ b2sum -c archlinux-year.month.day-x86_64.iso.txt
 
   </TabItem>
 </Tabs>
-
----
 
 ## Verify the authenticity of the Arch Linux ISO image
 This command differ from the official Arch Linux installation guide. The keyserver is explicitly declared as we dont know the GnuPG default keyserver configured by your Linux distribution.

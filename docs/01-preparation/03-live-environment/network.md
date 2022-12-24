@@ -4,12 +4,18 @@ title: Network
 slug: /preparation/live-environment/network
 ---
 
+<head>
+  <title>Live environment network | Arcadia</title>
+</head>
+
 # Network
+
 This page describes how to verify the network of the live environment, set the system clock using NTP protocol and allow an optional SSH connection on the computer you want to install Arch Linux on.
 
 ## Verify the internet connection of the live environment
 
 ### Ensure your network interface is listed and enabled
+
 You can identify your ethernet network interface by looking at the prefix of the listed interfaces. 
 
 | Prefix | Description                                          |
@@ -29,6 +35,7 @@ The UP in <BROADCAST,MULTICAST,UP,LOWER_UP> is what indicates the interface is u
 :::
 
 ### Ensure your network interface is configured by your DHCP server
+
 If your network interface is properly connected to your network (ethernet cable plugged in), your DHCP server should take care of your network settings (ip/mask & gateway).
 
 ``` bash
@@ -48,8 +55,6 @@ Replace `eno1` if your network device name is different.
 ping -c 3 archlinux.org
 ```
 
----
-
 ## Update the system clock with the Network Time protocol
 
 The Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks.
@@ -60,8 +65,6 @@ The Network Time Protocol (NTP) is a networking protocol for clock synchronizati
 timedatectl set-ntp true
 timedatectl status
 ```
-
----
 
 ## Connect another system into the live environment with SSH
 

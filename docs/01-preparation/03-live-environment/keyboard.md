@@ -4,10 +4,16 @@ title: Keyboard
 slug: /preparation/live-environment/keyboard
 ---
 
+<head>
+  <title>Live environment keyboard | Arcadia</title>
+</head>
+
 # Keyboard
+
 This page describes how to search and load the correct console keyboard mapping (keymap) for your keyboard so that pressing a key will produce the expected result, corresponding to the legend of the physical key on your keyboard.
 
 ## About keyboard layouts
+
 There is 3 main types of keyboard layouts :
 
 | Layout | Description |
@@ -22,9 +28,8 @@ The default Arch Linux console keymap is "US" which is represented by the visual
 
 ![Representation of the default Arch Linux keymap](https://upload.wikimedia.org/wikipedia/commons/5/51/KB_United_States-NoAltGr.svg)
 
----
-
 ## Search for the correct console keymap
+
 Searching for a keymap can be tedious as you may not know where the keyboard is from and/or how it is designed.
 
 1. Go to the [Wikipedia - Keyboard layout page](https://en.wikipedia.org/wiki/Keyboard_layout).
@@ -41,8 +46,6 @@ The naming conventions of console keymaps are somewhat arbitrary
 - **Language codes**: where the language code is the same as its country code (e.g. de for German, or fr for French).
 - **Country codes**: where variations of the same language are used in different countries (e.g.uk for United Kingdom English, or us for United States English); a list of country codes can also be found on [Wikipedia](https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements).
 - **Keyboard layouts**: where the layout is not related to a particular country or language (e.g. dvorak for the Dvorak keyboard layout).
-
----
 
 ## Load the correct console keymap
 

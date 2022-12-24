@@ -4,6 +4,10 @@ title: Filesystem
 slug: /preparation/storage/filesystem
 ---
 
+<head>
+  <title>Storage filesystem | Arcadia</title>
+</head>
+
 # Filesystem
 
 This page describes how to create and mount the filesystems required to install Arch Linux.
@@ -19,8 +23,6 @@ This page describes how to create and mount the filesystems required to install 
 mkfs.ext4 -L ROOT /dev/mapper/cryptroot
 mkfs.fat -F32 -n BOOT /dev/nvme0n1p1
 ```
-
----
 
 ## Mount the filesystems
 

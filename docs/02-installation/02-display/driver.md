@@ -4,6 +4,10 @@ title: Driver
 slug: /installation/display/driver
 ---
 
+<head>
+  <title>Display driver | Arcadia</title>
+</head>
+
 # Display driver
 
 This page describes how to install and configure the Nvidia proprietary driver on the system.

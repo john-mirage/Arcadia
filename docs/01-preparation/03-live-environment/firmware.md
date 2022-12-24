@@ -4,10 +4,16 @@ title: Firmware
 slug: /preparation/live-environment/firmware
 ---
 
+<head>
+  <title>Live environment firmware | Arcadia</title>
+</head>
+
 # Firmware
+
 This page describes how to verify the boot mode of your computer. This guide only cover the UEFI boot mode.
 
 ## Verify the boot mode of the live environment
+
 UEFI firmware is required to follow this guide. This guide don't cover BIOS and UEFI-CSM modes. Make sure that EFI variables are available with the following command.
 
 ``` bash

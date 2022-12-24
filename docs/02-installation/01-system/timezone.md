@@ -4,6 +4,10 @@ title: Timezone
 slug: /installation/system/timezone
 ---
 
+<head>
+  <title>System timezone | Arcadia</title>
+</head>
+
 # Timezone
 
 This page describes how to setup the timezone configuration of the system and synchronize the hardware clock with the system clock.
@@ -21,8 +25,6 @@ ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
 This command set the Paris timezone, if you are living in a different area, run `ls /usr/share/zoneinfo/` to select your location and replace `Europe/Paris` in the above command.
 
 :::
-
----
 
 ## Set the hardware clock from your system clock
 

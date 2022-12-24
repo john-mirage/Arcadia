@@ -4,6 +4,10 @@ title: Localization
 slug: /installation/system/localization
 ---
 
+<head>
+  <title>System localization | Arcadia</title>
+</head>
+
 # Localization
 
 This page describes how to generate the locales, set the language of the system and set a keymap for the console.
@@ -17,16 +21,12 @@ fr_FR.UTF-8 UTF-8
 ```
 
 **Note**: This command select the French locale, if this is not your language, dont uncomment this line and uncomment yours.
-
----
  
 ## Generate the locales
 
 ``` bash
 locale-gen
 ```
-
----
 
 ## Set the system locale
 
@@ -40,8 +40,6 @@ LC_COLLATE=C
 Setting `LC_COLLATE` variable to `C` make the ls command sort dotfiles first, followed by uppercase and lowercase filenames. To get around potential issues, Arch used to set `LC_COLLATE=C `in `/etc/profile`, but this method is now deprecated.
 
 :::
-
----
 
 ## Set the console locale
 

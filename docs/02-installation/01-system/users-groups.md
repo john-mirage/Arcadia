@@ -4,6 +4,10 @@ title: Users and groups
 slug: /installation/system/users-and-groups
 ---
 
+<head>
+  <title>System users and groups | Arcadia</title>
+</head>
+
 # Users and groups
 
 This page describes how to add a password on the root user and how to create an unprivileged user with temporary root privileges.
@@ -20,8 +24,6 @@ Passwords must be complex enough to not be easily guessed from e.g. personal inf
 
 :::
 
----
-
 ## Create a user
 
 ``` bash
@@ -34,8 +36,6 @@ passwd username
 Passwords must be complex enough to not be easily guessed from e.g. personal information, or cracked using methods like social engineering or brute-force attacks. The tenets of strong passwords are based on length and randomness.
 
 :::
-
----
 
 ## Sudo configuration
 

@@ -4,12 +4,18 @@ title: Preparation
 slug: /installation-medium/preparation
 ---
 
+<head>
+  <title>Installation medium preparation | Arcadia</title>
+</head>
+
 # Preparation
+
 This page describes how to prepare the installation medium (USB flash device) with a verified Arch Linux ISO image.
 
 To avoid data corruption, The USB flash device used as the installation medium have to work properly and should be fairly recent. Before starting this section, make sure your USB flash device is plugged into a working USB port on your computer. 
 
 ## Identify your USB flash device
+
 Identify the correct device file is really important as the copy of the Arch Linux ISO image will completely wipe the content of your USB flash device. A backup of any existing content should be made to avoid any data loss.
 
 In Unix-like operating systems, a device file or special file is an interface to a device driver that appears in a file system as if it were an ordinary file.
@@ -19,8 +25,6 @@ sudo fdisk -l
 ```
 
 With the informations given by fdisk, you can now safely identify the device file of your USB flash device (e.g. /dev/sda).
-
----
 
 ## Copy the Arch Linux ISO image on your USB flash device
 

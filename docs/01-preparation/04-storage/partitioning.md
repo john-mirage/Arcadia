@@ -4,10 +4,16 @@ title: Partitioning
 slug: /preparation/storage/partitioning
 ---
 
+<head>
+  <title>Storage partitioning | Arcadia</title>
+</head>
+
 # Partitioning
+
 This page describes how to create a partition table and the partitions needed to install Arch Linux on a NVMe storage device.
 
 ## Identify the device file of your storage device
+
 | Device type                           | Device file         | Partition file          |
 | :------------------------------------ | :------------------ | :---------------------- |
 | SCSI/PATA/SATA & USB/IEEE 1394 device | sda, sdb...         | sda1, sda2...           |
@@ -21,9 +27,8 @@ Fdisk is a dialog-driven program for creation and manipulation of partition tabl
 fdisk -l
 ```
 
----
-
 ## Launch the Sgdisk script
+
 | Partition node | Partition type       | Partition size          |
 | :------------- | :------------------- | :---------------------- |
 | /dev/nvme0n1p1 | EFI system partition | 550 MiB                 |

@@ -4,6 +4,10 @@ title: Initialization
 slug: /installation/system/initialization
 ---
 
+<head>
+  <title>System initialization | Arcadia</title>
+</head>
+
 # Initialization
 
 This page describes how to generate the initial ramdisk images and configure the systemd boot manager for UEFI and the Intel microcode.
@@ -26,8 +30,6 @@ HOOKS=(base udev autodetect keyboard keymap modconf block encrypt filesystems fs
 mkinitcpio -p linux-lts
 ```
 
----
-
 ## Install the Intel microcode package
 
 Processors may have faulty behaviour, which the kernel can correct by updating the microcode on startup.
@@ -35,8 +37,6 @@ Processors may have faulty behaviour, which the kernel can correct by updating t
 ``` bash
 pacman -S intel-ucode
 ```
-
----
 
 ## Setup the Systemd boot manager
 
@@ -73,8 +73,6 @@ initrd      /intel-ucode.img
 initrd      /initramfs-linux-lts.img
 options     cryptdevice=UUID=<UUID>:cryptroot:allow-discards root="UUID=<UUID>" quiet rw
 ```
-
----
 
 ## Reboot the computer
 

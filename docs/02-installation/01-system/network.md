@@ -4,6 +4,10 @@ title: Network
 slug: /installation/system/network
 ---
 
+<head>
+  <title>System network | Arcadia</title>
+</head>
+
 # Network
 
 This page describes how to create a network configuration and configure the systemd network manager.
@@ -23,8 +27,6 @@ myhostname
 ::1          localhost
 127.0.1.1    myhostname.localdomain    myhostname
 ```
-
----
 
 ## Install and activate Network Manager
 

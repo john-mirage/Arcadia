@@ -4,6 +4,10 @@ title: Mirrorlist
 slug: /preparation/live-environment/mirrorlist
 ---
 
+<head>
+  <title>Live environment mirrorlist | Arcadia</title>
+</head>
+
 # Mirrorlist
 
 This page describes how to generate a mirrorlist for the Arch Linux installation. The mirrorlist provides mirror servers which are used to download the packages and update the repositories of the system.
