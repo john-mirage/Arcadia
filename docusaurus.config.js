@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -26,7 +26,7 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/john-mirage/arcadia-new/tree/main/',
         },
         blog: false,
         theme: {
@@ -42,12 +42,12 @@ const config = {
       navbar: {
         title: 'Arcadia',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Arcadia logo',
+          src: 'img/logo.png',
         },
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/john-mirage/arcadia-new',
             label: 'GitHub',
             position: 'right',
           },
@@ -55,7 +55,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Arcadia, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

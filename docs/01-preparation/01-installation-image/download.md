@@ -8,8 +8,6 @@ slug: /installation-image/download
   <title>Installation image download | Arcadia</title>
 </head>
 
-# Download
-
 This page describes how to download the official ISO image, the checksum and the signature of the Arch Linux latest release.
 
 ## Download the ISO image

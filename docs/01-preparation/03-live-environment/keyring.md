@@ -8,8 +8,6 @@ slug: /preparation/live-environment/keyring
   <title>Live environment keyring | Arcadia</title>
 </head>
 
-# Keyring
-
 This page describes how to update the Arch Linux keyring. Updating the keyring is made by deleting revoked keys and adding new trusted keys.
 
 ## Update the Arch Linux keyring

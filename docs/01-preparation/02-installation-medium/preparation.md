@@ -8,8 +8,6 @@ slug: /installation-medium/preparation
   <title>Installation medium preparation | Arcadia</title>
 </head>
 
-# Preparation
-
 This page describes how to prepare the installation medium (USB flash device) with a verified Arch Linux ISO image.
 
 To avoid data corruption, The USB flash device used as the installation medium have to work properly and should be fairly recent. Before starting this section, make sure your USB flash device is plugged into a working USB port on your computer. 

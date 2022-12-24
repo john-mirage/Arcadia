@@ -8,8 +8,6 @@ slug: /installation-medium/boot
   <title>Installation medium boot | Arcadia</title>
 </head>
 
-# Boot
-
 This page describes how to boot a prepared installation medium (USB flash device) on your computer.
 
 Now that your USB flash device is prepared, we need to make sure that your computer is ready and properly configured to boot on the USB flash device.

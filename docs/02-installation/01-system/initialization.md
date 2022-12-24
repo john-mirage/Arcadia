@@ -8,8 +8,6 @@ slug: /installation/system/initialization
   <title>System initialization | Arcadia</title>
 </head>
 
-# Initialization
-
 This page describes how to generate the initial ramdisk images and configure the systemd boot manager for UEFI and the Intel microcode.
 
 ## Setup the initial ramdisk images

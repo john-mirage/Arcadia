@@ -8,8 +8,6 @@ slug: /installation/system/timezone
   <title>System timezone | Arcadia</title>
 </head>
 
-# Timezone
-
 This page describes how to setup the timezone configuration of the system and synchronize the hardware clock with the system clock.
 
 ## Setup the timezone

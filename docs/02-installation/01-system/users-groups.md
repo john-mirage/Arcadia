@@ -8,8 +8,6 @@ slug: /installation/system/users-and-groups
   <title>System users and groups | Arcadia</title>
 </head>
 
-# Users and groups
-
 This page describes how to add a password on the root user and how to create an unprivileged user with temporary root privileges.
 
 ## Add a root password

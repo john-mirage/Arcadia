@@ -8,8 +8,6 @@ slug: /preparation/live-environment/firmware
   <title>Live environment firmware | Arcadia</title>
 </head>
 
-# Firmware
-
 This page describes how to verify the boot mode of your computer. This guide only cover the UEFI boot mode.
 
 ## Verify the boot mode of the live environment

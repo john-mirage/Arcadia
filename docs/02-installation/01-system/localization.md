@@ -8,8 +8,6 @@ slug: /installation/system/localization
   <title>System localization | Arcadia</title>
 </head>
 
-# Localization
-
 This page describes how to generate the locales, set the language of the system and set a keymap for the console.
 
 ## Select the needed locales in `/etc/locale.gen`

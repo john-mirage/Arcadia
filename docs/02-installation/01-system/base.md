@@ -8,8 +8,6 @@ slug: /installation/system/base
   <title>System base | Arcadia</title>
 </head>
 
-# Base
-
 This page describes how to install the base packages of Arch Linux. This page also describes how to generate the fstab and enter the system using the chroot command.
 
 ## Install the essential packages

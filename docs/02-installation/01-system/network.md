@@ -8,8 +8,6 @@ slug: /installation/system/network
   <title>System network | Arcadia</title>
 </head>
 
-# Network
-
 This page describes how to create a network configuration and configure the systemd network manager.
 
 ## Setup the network informations

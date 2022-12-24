@@ -8,8 +8,6 @@ slug: /preparation/live-environment/keyboard
   <title>Live environment keyboard | Arcadia</title>
 </head>
 
-# Keyboard
-
 This page describes how to search and load the correct console keyboard mapping (keymap) for your keyboard so that pressing a key will produce the expected result, corresponding to the legend of the physical key on your keyboard.
 
 ## About keyboard layouts

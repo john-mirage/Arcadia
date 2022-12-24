@@ -8,8 +8,6 @@ slug: /preparation/live-environment/network
   <title>Live environment network | Arcadia</title>
 </head>
 
-# Network
-
 This page describes how to verify the network of the live environment, set the system clock using NTP protocol and allow an optional SSH connection on the computer you want to install Arch Linux on.
 
 ## Verify the internet connection of the live environment

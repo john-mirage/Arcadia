@@ -11,10 +11,10 @@ slug: /installation-image/verification
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Verification
 This page describes how to verify if the previously downloaded ISO image is strictly identical and has the same signature as the ISO image created by the Arch Linux team. Although this is extremely rare, it is possible that a mirror provide a modified and therefore dangerous ISO image.
 
 ## Verify the folder structure
+
 Before starting, verify that you have the 3 files below in the **same folder**. The commands displayed in this section must be running in this folder.
 
 | Filename                                  | Description               |
@@ -43,6 +43,7 @@ b2sum -c archlinux-year.month.day-x86_64.iso.txt
 </Tabs>
 
 ## Verify the authenticity of the Arch Linux ISO image
+
 This command differ from the official Arch Linux installation guide. The keyserver is explicitly declared as we dont know the GnuPG default keyserver configured by your Linux distribution.
 
 <Tabs>

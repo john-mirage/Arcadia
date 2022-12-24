@@ -8,8 +8,6 @@ slug: /preparation/storage/partitioning
   <title>Storage partitioning | Arcadia</title>
 </head>
 
-# Partitioning
-
 This page describes how to create a partition table and the partitions needed to install Arch Linux on a NVMe storage device.
 
 ## Identify the device file of your storage device

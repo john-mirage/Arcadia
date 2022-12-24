@@ -8,8 +8,6 @@ slug: /preparation/storage/filesystem
   <title>Storage filesystem | Arcadia</title>
 </head>
 
-# Filesystem
-
 This page describes how to create and mount the filesystems required to install Arch Linux.
 
 ## Create the filesystems

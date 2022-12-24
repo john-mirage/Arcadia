@@ -8,8 +8,6 @@ slug: /preparation/storage/encryption
   <title>Storage encryption | Arcadia</title>
 </head>
 
-# Encryption
-
 This page describes how to setup the system partition encryption of the NVMe storage device. Encryption is made with the cryptsetup program and LUKS2.
 
 ## Create the LUKS2 container
