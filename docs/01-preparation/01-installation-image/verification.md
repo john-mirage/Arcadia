@@ -49,8 +49,8 @@ This command differ from the official Arch Linux installation guide. The keyserv
   <TabItem value="anyLinux" label="Any linux distribution" default>
 
 ``` bash
-gpg --keyserver-options auto-key-retrieve \
-    --keyserver pool.sks-keyservers.net \
+gpg --keyserver hkps://keyserver.ubuntu.com \
+    --keyserver-options auto-key-retrieve \
     --verify archlinux-year.month.day-x86_64.iso.sig
 ```
 
