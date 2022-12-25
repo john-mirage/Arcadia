@@ -31,8 +31,7 @@ mkfs.fat -F32 -n BOOT /dev/nvme0n1p1
 
 ``` bash
 mount /dev/mapper/cryptroot /mnt
-mkdir /mnt/boot
-mount /dev/nvme0n1p1 /mnt/boot
+mount --mkdir /dev/nvme0n1p1 /mnt/boot
 ```
 
 ---

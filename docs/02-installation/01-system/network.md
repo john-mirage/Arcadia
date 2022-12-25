@@ -8,6 +8,9 @@ slug: /installation/system/network
   <title>System network | Arcadia</title>
 </head>
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 This page describes how to create a network configuration and configure the systemd network manager.
 
 ## Setup the network informations
@@ -26,7 +29,36 @@ myhostname
 127.0.1.1    myhostname.localdomain    myhostname
 ```
 
-## Install and activate Network Manager
+## Setup a network manager
+
+<Tabs>
+  <TabItem value="systemd-networkd" label="Systemd Networkd" default>
+
+### List available interfaces
+
+```bash
+networkctl list
+```
+
+### Configuration
+
+``` conf title="/etc/systemd/network/enp0s3-ethernet.network"
+[March]
+Name=enp0s3
+
+[Network]
+DHCP=yes
+```
+
+### Activation
+
+``` bash
+systemctl enable systemd-networkd.service
+systemctl enable systemd-resolved.service
+```
+
+  </TabItem>
+  <TabItem value="network-manager" label="Network Manager">
 
 ### Installation
 
@@ -39,6 +71,9 @@ pacman -S networkmanager
 ``` bash
 systemctl enable NetworkManager.service
 ```
+
+  </TabItem>
+</Tabs>
 
 ---
 

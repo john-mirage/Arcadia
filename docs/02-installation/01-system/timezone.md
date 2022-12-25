@@ -29,7 +29,7 @@ This command set the Paris timezone, if you are living in a different area, run 
 The following sets the hardware clock from the system clock. Additionally it updates `/etc/adjtime` or creates it if not present.
 
 ``` bash
-hwclock --systohc --utc
+hwclock --systohc
 ```
 
 ---

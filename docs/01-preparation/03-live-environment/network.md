@@ -57,10 +57,9 @@ ping -c 3 archlinux.org
 
 The Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks.
 
-### Enable the Network Time Protocol with Timedatectl
+### Ensure that the system clock is accurate
 
 ``` bash
-timedatectl set-ntp true
 timedatectl status
 ```
 
