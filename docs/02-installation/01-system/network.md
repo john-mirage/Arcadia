@@ -34,15 +34,15 @@ myhostname
 <Tabs>
   <TabItem value="systemd-networkd" label="Systemd Networkd" default>
 
-### List available interfaces
+<h3>List available interfaces</h3>
 
 ```bash
 networkctl list
 ```
 
-### Configuration
+<h3>Configuration</h3>
 
-``` conf title="/etc/systemd/network/enp0s3-ethernet.network"
+``` conf title="/etc/systemd/network/20-wired.network"
 [March]
 Name=enp0s3
 
@@ -50,7 +50,7 @@ Name=enp0s3
 DHCP=yes
 ```
 
-### Activation
+<h3>Activation</h3>
 
 ``` bash
 systemctl enable systemd-networkd.service
@@ -60,13 +60,13 @@ systemctl enable systemd-resolved.service
   </TabItem>
   <TabItem value="network-manager" label="Network Manager">
 
-### Installation
+<h3>Installation</h3>
 
 ``` bash
 pacman -S networkmanager
 ```
 
-### Activation
+<h3>Activation</h3>
 
 ``` bash
 systemctl enable NetworkManager.service

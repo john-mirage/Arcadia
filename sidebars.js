@@ -72,6 +72,15 @@ const sidebars = {
           label: 'Display',
           items: [
             'installation/display/driver',
+            'installation/display/server',
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Desktop',
+          items: [
+            'installation/desktop/toolkit',
+            'installation/desktop/window-manager',
           ]
         },
       ]
