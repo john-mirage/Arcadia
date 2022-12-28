@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Arcadia',
   tagline: 'Arch Linux personal installation guide',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://john-mirage-arcadia.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
