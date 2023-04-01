@@ -43,7 +43,7 @@ networkctl list
 <h3>Configuration</h3>
 
 ``` conf title="/etc/systemd/network/20-wired.network"
-[March]
+[Match]
 Name=enp0s3
 
 [Network]
