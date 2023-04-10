@@ -21,7 +21,7 @@ sudo pacman -S nvidia-lts
 Enabling DRM kernel mode setting allow the Xorg server to run without root privileges. It provide a nice security improvement.
 
 ``` conf title="/boot/loader/entries/arch.conf"
-options     cryptdevice=UUID=<UUID>:cryptroot:allow-discards root="UUID=<UUID>" nvidia-drm.modeset=1 quiet rw
+options     cryptdevice=UUID=<UUID>:cryptroot:allow-discards root="UUID=<UUID>" nvidia_drm.modeset=1 quiet rw
 ```
 
 ---
