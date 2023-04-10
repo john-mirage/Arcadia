@@ -24,6 +24,13 @@ Enabling DRM kernel mode setting allow the Xorg server to run without root privi
 options     cryptdevice=UUID=<UUID>:cryptroot:allow-discards root="UUID=<UUID>" nvidia_drm.modeset=1 quiet rw
 ```
 
+## Remove kms module in Mkinitcpio
+
+``` conf title="/etc/mkinitcpio.conf"
+HOOKS=(base udev autodetect keyboard keymap modconf block encrypt filesystems fsck)
+
+```
+
 ---
 
 ## References
